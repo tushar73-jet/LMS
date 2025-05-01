@@ -71,6 +71,9 @@ const Dashboard = () => {
           </Link>
         </section>
       </main>
+      <footer className="footer">
+        <p>© 2025 LearnX | Tushar</p>
+      </footer>
     </div>
   );
 };
