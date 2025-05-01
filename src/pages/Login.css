@@ -1,4 +1,4 @@
-/* Ensure full screen usage */
+
 body, html, #root {
   height: 100%;
   margin: 0;
@@ -19,10 +19,10 @@ body, html, #root {
   width: 90%;
   max-width: 400px;
   padding: 40px;
-  background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent for glass effect */
+  background-color: rgba(255, 255, 255, 0.85);
   border-radius: 15px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(10px); /* Glassmorphism effect */
+  backdrop-filter: blur(10px); 
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;

@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './Profile.css';
 
 export default function Profile() {
-  // Mock user data
   const [user, setUser] = useState({
     name: 'Learner',
     email: 'learner@gmail.com',

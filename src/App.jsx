@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
+
 import Courses from './pages/Courses';
 import Dashboard from './pages/Dashboard';
 import Login from './pages/Login';
@@ -52,3 +53,4 @@ export default function App() {
     </Router>
   );
 }
+

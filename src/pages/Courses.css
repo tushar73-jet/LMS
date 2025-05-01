@@ -66,15 +66,15 @@
   transform: scale(1.05);
 }
 
-/* Make it responsive for smaller screens */
+
 @media (max-width: 768px) {
   .courses-list {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+    grid-template-columns: repeat(2, 1fr); 
   }
 }
 
 @media (max-width: 480px) {
   .courses-list {
-    grid-template-columns: 1fr; /* 1 column for small screens */
+    grid-template-columns: 1fr; 
   }
 }
