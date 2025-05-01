@@ -1,0 +1,113 @@
+.profile-container {
+    max-width: 600px;
+    margin: 100px auto 40px;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  }
+  
+  
+  .profile-card {
+    background: #3F5EFB;
+background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .avatar-section {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #4CAF50;
+  }
+  
+  .upload-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #4CAF50;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .info-section {
+    text-align: left;
+    margin: 0 auto 20px;
+    max-width: 400px;
+  }
+  
+  .field {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .field label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .field span,
+  .field p {
+    font-size: 16px;
+  }
+  
+  .field input[type="text"],
+  .field input[type="email"],
+  .field textarea {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .field textarea {
+    resize: vertical;
+    min-height: 60px;
+  }
+  
+  .actions {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    margin: 0 8px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .btn.edit {
+    background: #2196F3;
+    color: #fff;
+  }
+  
+  .btn.save {
+    background: #4CAF50;
+    color: #fff;
+  }
+  
+  .btn.cancel {
+    background: #f44336;
+    color: #fff;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  

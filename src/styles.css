@@ -1,0 +1,52 @@
+/* Example: Enhancing the Navbar */
+.navbar {
+  background-color: #2c3e50;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ecf0f1;
+}
+
+.navbar a {
+  color: #ecf0f1;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Example: Styling Course Cards */
+.course-card {
+  background-color: #ffffff;
+  border: 1px solid #bdc3c7;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.course-card h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.course-card p {
+  color: #7f8c8d;
+}
+
+.course-card button {
+  background-color: #2980b9;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.course-card button:hover {
+  background-color: #3498db;
+}

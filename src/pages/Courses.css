@@ -1,0 +1,80 @@
+.courses-container {
+  padding: 300px;
+  background: #EEAECA;
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  min-height: 100vh;
+}
+
+.courses-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.courses-list {
+  display: grid;
+  gap: 0px;
+  justify-items: center;
+}
+
+
+.course-card {
+  /* background: #22C1C3; */
+  /* background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%); */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  width: 100%; 
+}
+
+.course-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.course-card h3 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.course-card p {
+  font-size: 16px;
+  color: #555;
+  padding: 0 20px;
+}
+
+.enroll-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 20px 0;
+  transition: background-color 0.3s ease;
+}
+
+.enroll-btn:hover {
+  background-color: #45a049;
+}
+
+.course-card:hover {
+  transform: scale(1.05);
+}
+
+/* Make it responsive for smaller screens */
+@media (max-width: 768px) {
+  .courses-list {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .courses-list {
+    grid-template-columns: 1fr; /* 1 column for small screens */
+  }
+}
